@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="edu.ucmo.sxz45880.android.multiactivity.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mainTextView"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:labelFor="@+id/mainEditText"
+            android:text="@string/main_text_view_string" />
+
+        <EditText
+            android:id="@+id/mainEditText"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/mainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_button_string"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
